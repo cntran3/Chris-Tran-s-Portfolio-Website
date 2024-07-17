@@ -1,0 +1,125 @@
+/* ----- GLOBAL STYLES ----- */
+
+/* ADD A FEATURE SUPPORT TO SEE IF THE BROWSER SUPPORTS BOX-SHADOW BY ADDING WHITE TEXT IN A DOTTED, WHITE BORDER FOR A PARAGRAPH THAT FOLLOW AN H1*/
+@supports (box-shadow: 1px 1px 2px #000000) {
+    h1 + p{
+      color: #ffffff;
+      border: 5px dotted #ffffff;
+    }
+  }
+  header, footer {
+    background-color: #1EB8FC;
+    width:100%;
+  }
+  h1, p {
+    padding:10px;
+  }
+  p {
+    margin:10px;
+  }
+  main {
+    max-width:1920px;
+    min-width:500px;
+    display:grid;
+    grid-gap:10px;
+    grid-template-areas:
+      "one one two two"
+      "three four five six"
+      "seven seven eight eight"
+  }
+  #one {
+    grid-area: one;
+  }
+  #two {
+    grid-area: two;
+  }
+  #three {
+    grid-area:three;
+  }
+  #four {
+    grid-area:four;
+  }
+  #five {
+    grid-area:five;
+  }
+  #six {
+    grid-area:six;
+  }
+  #seven {
+    grid-area:seven;
+  }
+  #eight {
+    grid-area:eight;
+  }
+  section {
+    background-color: #0BD996;
+    padding:10px;
+  }
+  img {
+    margin:10px;
+    float: left;
+  }
+  
+  /* FIND THE FIRST BREAKPOINT AND WRITE A MEDIA QUERY FOR IT */
+  @media screen and (max-width:1380px){
+    main {
+      grid-template-areas:
+      "one one one"
+      "two two two"
+      "three four five" 
+      "six seven seven"
+      "eight eight eight";
+    }
+    header, footer {
+      background-color: #000000;
+      color:#ffffff;
+    }
+    section {
+      background-color: #eaeaea;
+    }
+  }
+  
+  /* FIND THE FIRST BREAKPOINT AND WRITE A MEDIA QUERY FOR IT */
+  @media screen and (max-width:940px){
+    
+    main { 
+    grid-template-areas:
+      "one one"
+      "two two" 
+      "three four"
+      "five six"
+      "seven seven"
+      "eight eight";
+  }
+      header, footer {
+      background-color: #AED90B;
+    }
+    section {
+      background-color: #FCD30D;
+    }
+  }
+  
+  /* FIND THE FIRST BREAKPOINT AND WRITE A MEDIA QUERY FOR IT */
+  @media screen and (max-width:620px){
+  
+    main { 
+    grid-template-areas:
+      "one"
+      "two" 
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven"
+      "eight";
+  }
+    img{
+      float:none;
+    }
+    header, footer {
+      background-color: #FF00D6;
+    }
+    section {
+      background-color: #F05200;
+    }
+  }

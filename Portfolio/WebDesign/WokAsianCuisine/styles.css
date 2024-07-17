@@ -1,0 +1,156 @@
+img{
+    width: 300px;
+    height: auto;
+}
+
+img.header{
+    width: 1400px;
+    height: auto;
+}
+
+.top{
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.top h2{
+    margin-top: 5px;
+}
+
+body{
+    background-image: url(pexels-henry-&-co-1939485.jpg);
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+body, #wrapper, footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+ }
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    width: 495px;
+    margin:0 auto;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    padding: 10px;
+    color: black;
+}
+
+nav a:hover{
+    color: brown;
+}
+
+p a{
+    text-decoration: none;
+    padding: 2px;
+    margin: 0 auto;
+    color: black;
+}
+
+p a:hover{
+    color: brown;
+}
+
+#wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.section{
+    width: 700px;
+    float: left;
+}
+
+.section:first-of-type{
+    margin-right: 20px;
+}
+
+.section img{
+    width:680px;
+    height: auto;
+}
+
+footer{
+    clear: both;
+    background-color: lightgray;
+}
+
+
+/*Contact Page*/
+
+form{
+    width: 350px;
+    background-color: lightgray;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+label{
+    color: black;
+}
+
+input{
+    display: block;
+    width: 310px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px inset grey;
+}
+
+select{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#myZip{
+    width: 90px;
+}
+
+#prefEmail, #prefPhone{
+    display: inline;
+    width:20px;
+    height:17px;
+}
+
+#label-block{
+    display: block;
+    margin-top: 10px;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+fieldset{
+    width: 300px;
+    border-radius: 5px;
+}
+
+#myReset, #mySubmit{
+    width: 100px;
+    display: inline;
+}
+
+#myButtons{
+    width: 209px;
+    margin: 0 auto;
+}
