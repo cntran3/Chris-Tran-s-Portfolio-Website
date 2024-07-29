@@ -199,3 +199,7 @@ a .exclude{
     padding: 5px;
     margin-top: 5px;
 }
+
+small{
+    background-color: gold;
+}
