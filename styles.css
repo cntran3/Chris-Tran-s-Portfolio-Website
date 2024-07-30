@@ -42,17 +42,32 @@ header h1{
     margin: 0;
     font-size: larger;
     font-weight: bolder;
-    text-decoration: underline;
 }
 
 header .baseinfo{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 header p{
     margin: 25px 50px;
+}
+
+header .baseinfo a {
+    color: maroon;
+    text-decoration: underline; 
+    font-size: inherit; 
+    font-family: inherit; 
+    font-weight: inherit; 
+    margin: 25px 50px; 
+    padding: 0;
+    line-height: 1.4; 
+}
+
+header .baseinfo a:hover {
+    color:blue;
 }
 
 main{
@@ -86,6 +101,10 @@ a{
     display: inline-block;
 }
 
+a:hover{
+    color:blue;
+}
+
 a .exclude{
     padding: 0;
     margin: 0;
@@ -93,14 +112,65 @@ a .exclude{
     line-height: inherit;
 }
 
+.Home {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.Home .profile-pic {
+    flex: 1;
+    max-width: 40%;
+    margin: 0 20px 0 0;
+}
+
+.Home .text-box {
+    flex: 2; 
+}
+
+.Home .text-box p,
+.Home .text-box a {
+    margin: 10px 0;
+}
+
+.Home .text-box a{
+    background-color: gold;
+    color:maroon;
+}
+
+.Home .text-box a:hover{
+    color:blue;
+    
+}
+
+.Home .text-box li {
+    margin: 10px 0;
+}
+
 .Horizontal{
-    list-style-type: none;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 100px; 
+    list-style: none;
     padding: 0;
+    justify-content: center; 
 }
 
 .Horizontal li{
-    display: inline-block;
-    margin-right: 20px;
+    background-color: gold;
+    color: maroon;
+    padding: 10px; 
+    text-align: center; 
+    width: 300px; 
+    height: 80px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.Horizontal li a:hover{
+    color:blue;
 }
 
 .Project {
