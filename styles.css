@@ -122,7 +122,7 @@ a .exclude{
 .Home .profile-pic {
     flex: 1;
     max-width: 40%;
-    margin: 0 20px 0 0;
+    margin: 0 20px 20px 0;
 }
 
 .Home .text-box {
